@@ -104,6 +104,6 @@ jobs:
       uses: actions/upload-artifact@v4      
       with:
         name: _dest
-        path: _build
+        path: _build/_dest
         retention-days: 7
         
